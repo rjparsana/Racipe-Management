@@ -1,4 +1,4 @@
-### Recipe Management Backend
+# Recipe Management Backend
 ## Description
 This is the backend API for the Recipe Management Application. The API handles user authentication using JWT and manages CRUD operations for recipes. It also supports CSV import/export functionality.
 
@@ -30,7 +30,7 @@ I have the following installed:
 Node.js: https://nodejs.org/
 MongoDB Atlas Account: https://www.mongodb.com/cloud/atlas
 
-# https://github.com/rjparsana8/recipe-management.git
+### https://github.com/rjparsana8/recipe-management.git
 
 
 Create a .env file in the root directory and add the following environment variables:
