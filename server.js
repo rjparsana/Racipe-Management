@@ -21,6 +21,10 @@ mongoose.connect(process.env.MONGO_URI, {
 app.use('/api/auth', authRoutes);
 app.use('/api/recipes', recipeRoutes);  
 
+app.get('/', (req, res) => {
+    res.send('Recipe Management API is running...');
+});
+
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
