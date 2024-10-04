@@ -38,6 +38,7 @@ Create a .env file in the root directory and add the following environment varia
 makefile .env
 
 MONGO_URI=mongodb+srv://rjparsana8:BuDWJr468xXHDhzi@cluster0.6idow.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
 JWT_SECRET=rj_secret
 
 #Running the Server
